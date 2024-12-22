@@ -90,6 +90,8 @@ React compares the Virtual DOM with Real DOM. It finds out the changed nodes and
 
 Reconciliation is the process by which React updates the UI to reflect changes in the component state. The reconciliation algorithm is the set of rules that React uses to determine how to update the UI in the most efficient way possible. React uses a virtual DOM (Document Object Model) to update the UI.
 
+virtual Dom is a representation of the browser DOM. It is a lightweight copy of the real DOM that exists in memory. React uses this virtual DOM to efficiently update the real DOM when necessary.
+
 ## Q: What is `React Fiber`?
 
 A: React Fiber is a concept of ReactJS that is used to render a system faster, smoother and smarter.
